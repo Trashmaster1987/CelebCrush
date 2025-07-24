@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Snake Draft App</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Snake Draft</h1>
+
+  <div id="status"></div>
+
+  <div id="draft-input">
+    <input type="text" id="name" placeholder="Enter name (e.g., Hulk Hogan)">
+    <input type="text" id="category" placeholder="Enter category (e.g., Athlete)">
+    <button id="submit">Draft</button>
+  </div>
+
+  <h2>Draft Picks</h2>
+  <div id="picks"></div>
+
+  <script src="/socket.io/socket.io.js"></script>
+  <script src="client.js"></script>
+</body>
+</html>
